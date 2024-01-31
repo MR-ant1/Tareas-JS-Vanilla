@@ -1,8 +1,14 @@
-let numeroventas = parseInt(prompt("introduzca el número de ventas que quiere incluir en la lista"))
-
-let lista = [];
-
-for (let i = 0; i < numeroventas; i++) {
-    lista.push(prompt("dime un juego"))
+let dia = "martes"
+switch (dia) {
+    case "lunes":
+    case "martes":
+    case "miercoles":
+    case "jueves":
+    case "viernes":
+        console.log("Hoy no es finde")
+    break;
+    case "sabado":
+    case "domingo":
+        console.log("hoy esa finde!!")
+    break;
 }
-console.log(lista)
