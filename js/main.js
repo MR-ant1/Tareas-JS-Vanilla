@@ -1,5 +1,3 @@
-let numeros = 1
-while (numeros <=100) {
-   console.log(numeros);
-   numeros++
+for (let i=0; i<=100; i++) {
+    console.log(i)
 }
